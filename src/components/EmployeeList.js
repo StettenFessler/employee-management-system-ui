@@ -31,6 +31,7 @@ const EmployeeList = () => {
 					return prevElement.filter((employee) => employee.id !== id);
 				});
 			}
+			console.log(res);
 		});
 	};
 
